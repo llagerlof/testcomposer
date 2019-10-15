@@ -1,0 +1,19 @@
+{
+    "name": "llagerlof/testcomposer",
+    "description": "The testcomposer project is just for test composer features loading external and internal classes.",
+    "version": "1.0.0",
+    "autoload": {
+        "classmap": [
+            "classes_internal/"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/llagerlof/myclass"
+        }
+    ],
+    "require": {
+        "llagerlof/myclass": "dev-master"
+    }
+}
